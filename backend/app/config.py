@@ -38,7 +38,8 @@ class Settings(BaseSettings):
     MAX_FILE_SIZE_MB: int = 50
     
     # Pydantic v2+: use ConfigDict via `model_config` instead of inner Config class
-    model_config = ConfigDict(env_file=".env", case_sensitive=True, extra="ignore")
+    # Removed env_file to work with Vercel environment variables
+    model_config = ConfigDict(case_sensitive=True, extra="ignore")
 
 
 settings = Settings()
