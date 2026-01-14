@@ -8,17 +8,18 @@
       }
     },
     {
-      "src": "api/index.py",
+      "src": "backend/vercel_app.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "50mb"
+        "maxLambdaSize": "50mb",
+        "runtime": "python3.11"
       }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/index.py"
+      "dest": "/backend/vercel_app.py"
     },
     {
       "src": "/(.*)",
