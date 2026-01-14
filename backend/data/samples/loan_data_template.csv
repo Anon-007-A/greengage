@@ -1,0 +1,11 @@
+company_name,sector,loan_amount,currency,origination_date,maturity_date,interest_rate,status,relationship_manager,covenant_name,covenant_type,covenant_threshold,covenant_current_value,esg_metric_name,esg_target,esg_current
+SolarGrid Energy,Renewable Energy,50000000,EUR,2023-01-15,2028-01-15,3.50,active,Johan Schmidt,Debt-to-EBITDA,financial,4.0,2.8,CO2 Emissions Reduced,50000,45000
+SolarGrid Energy,Renewable Energy,50000000,EUR,2023-01-15,2028-01-15,3.50,active,Johan Schmidt,Interest Coverage,financial,3.0,5.2,Renewable Energy Generated,200,180
+GreenBuild Construction,Sustainable Construction,35000000,EUR,2023-03-20,2028-03-20,4.25,active,Marie Dubois,Debt-to-EBITDA,financial,3.5,3.2,Energy Efficiency Improvement,15,12
+WindPower Nordic,Renewable Energy,75000000,EUR,2022-06-10,2027-06-10,3.75,active,Klaus Weber,DSCR,financial,1.25,1.45,Wind Generation,500,480
+EcoLiving Properties,Green Real Estate,25000000,EUR,2023-09-05,2028-09-05,4.75,active,Elena García,Leverage Ratio,financial,0.65,0.58,Water Reduction,100,85
+ChargeHub Europe,Sustainable Transport,40000000,EUR,2023-02-28,2028-02-28,4.00,active,Anna Rossi,Current Ratio,financial,1.2,1.35,EV Charging Points,5000,4200
+RecycleOps Technologies,Circular Economy,20000000,EUR,2023-07-12,2028-07-12,4.50,active,Johan Schmidt,Debt-to-EBITDA,financial,4.5,4.1,Waste Recycled,100000,92000
+AquaClean Technologies,Water Management,30000000,EUR,2023-04-01,2028-04-01,4.10,active,Marie Dubois,Interest Coverage,financial,2.5,3.1,Water Treated,50000,48000
+OrganoGrow Systems,Agriculture & Food,18000000,EUR,2023-08-15,2028-08-15,5.00,active,Klaus Weber,Leverage Ratio,financial,0.70,0.62,Organic Land,5000,4800
+Vestas Green Solutions,Renewable Energy,85000000,EUR,2022-11-20,2027-11-20,3.25,active,Elena García,DSCR,financial,1.30,1.52,MW Capacity,2000,1950
